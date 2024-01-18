@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator</title>
+    <link rel="stylesheet" href="Captcha_style.css">
+    <script src="https://kit.fontawesome.com/186eb98a62.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>Captcha Verify</header>
+      
+      <div class="input_field">
+        <input class = "captch_box" type="text" value="" disabled />
+        
+        <button class="refresh_button">
+            <i class="fa-solid fa-rotate-right"></i>
+        </button>
+      </div>
+
+      <div class="input_field">
+
+          <input class = "captch_input" type="text" placeholder="Enter captcha" required>
+
+      </div>
+      
+      <!--<div class="input_field button disabled">
+        <button>Submit Captcha</button>
+      </div> don't used for my project--> 
+    
+    </div>
+
+    <script src="Captcha.js"></script>
+  </body>
+</html>
